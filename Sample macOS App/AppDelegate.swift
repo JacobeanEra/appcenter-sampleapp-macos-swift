@@ -13,7 +13,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPageControllerDelegate {
 
   func applicationDidFinishLaunching(_ aNotification: Notification) {
     // Start App Center
-    AppCenter.start(withAppSecret: "<APP SECRET HERE>", services: [
+    AppCenter.start(withAppSecret: "291cc163-c642-493e-be31-7941326a165b", services: [
       Analytics.self,
       Crashes.self,
     ])
